@@ -5,11 +5,9 @@ const Home = () => {
     return (
             <div>
 
-          
+          <header>
         <div class="container">
-            <div class="content">
-                
-            </div>
+            
             <div class="box"></div>
             <div class="box"></div>
             <div class="box"></div>
@@ -22,7 +20,7 @@ const Home = () => {
             <div class="box"></div>
           </div>
           <h1>Welcome to Apprenez</h1>
-
+          </header>
       
       <div class="input-group mb-3">
         {/* <!-- <button class="btn btn-outline-secondary" type="button">Pick an instrument</button> --> */}

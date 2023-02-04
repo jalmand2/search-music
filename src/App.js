@@ -9,7 +9,7 @@ function App() {
 
   return (
 
-    <div id="canvas" class="root bg-image">
+    <div id="canvas" class="root">
      
       <Nav
         showHome={() => setPageIndex(0)} />
