@@ -1,7 +1,7 @@
 h1 {
   text-align: center;
   font-size: 4rem;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Licorice', cursive;
   
 }
 header {
@@ -121,4 +121,16 @@ to {
   margin: 0 0 0 -80px;
 
   right: 20px;
+}
+.input-group {
+  margin-top: 20px;
+  font-family: 'Licorice', cursive;
+}
+.card-body {
+  font-family: 'Licorice', cursive;
+  font-size: large;
+  font-weight: 500;
+}
+.search-box {
+  font-family: 'Licorice', cursive;
 }
