@@ -35,6 +35,9 @@ const Home = () => {
           <option value="1">Piano</option>
           <option value="2">Guitar</option>
           <option value="3">Flute</option>
+          <option value="4">Alto Saxophone</option>
+          <option value="5">Vocals</option>
+          <option value="6">Clarinet</option>
         </select>
       </div>
       <div className="search-box">

@@ -1,6 +1,6 @@
- h1 {
+ .h1, h1 {
   text-align: center;
-  font-size: 4rem;
+  font-size: 4rem !important;
   font-family: 'Licorice', cursive;
 }
 header {

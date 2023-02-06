@@ -9,17 +9,17 @@ function navbar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Navbar.Brand href="/">Apprenez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#link">About</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               {/* dropdown is going to change into login/account username once logged in */}
-              <NavDropdown.Item href="#action/3.1">My Account</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Saved Songs
+              <NavDropdown.Item href="/Login">Login</NavDropdown.Item>
+              <NavDropdown.Item href="/Signup">
+                Sign up
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">FAQ</NavDropdown.Item>
               <NavDropdown.Divider />
