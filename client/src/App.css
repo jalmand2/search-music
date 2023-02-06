@@ -31,7 +31,7 @@ place-items: center;
 height: 100vh;
 }
 
-.container {
+/* .container {
 background: #1abc9c;
 border-radius: 16px;
 display: grid;
@@ -40,7 +40,7 @@ overflow: hidden;
 place-items: center;
 position: relative;
 width: 315px;
-}
+} */
 .container::after {
 background-image: url("https://assets.codepen.io/9632/dolby-atmos.webp");
 background-position: center;
