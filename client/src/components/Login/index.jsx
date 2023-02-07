@@ -46,23 +46,23 @@ const Login = () => {
         <p>Successfully logged in! You may now head{' '}<Link to='/'>back to the hompage.</Link></p>
       ) : (
         <div>
-          <h2>Login</h2>
-          <form onSubmit={handleFormSubmit}>
-            <input
+          <h2 className="loginHeader">Login</h2>
+          <form className="loginForm" onSubmit={handleFormSubmit}>
+            <input className="loginInput"
               placeholder='Your email'
               name='email'
               type='email'
               value={formState.email}
               onChange={handleChange}
             />
-            <input
-              placeholde='Your password'
+            <input className="loginInput"
+              placeholder='Your password'
               name='password'
               type='password'
               value={formState.password}
               onChange={handleChange}
             />
-            <button type='submit'>Login</button>
+            <button className="loginInput" type='submit'>Login</button>
           </form>
         </div>
       )}

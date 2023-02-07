@@ -101,8 +101,23 @@ height: 100vh;
   }
   .input-group {
     margin-top: 20px;
+    margin-left: 1rem;
   }
   .card-body {
     font-size: large;
     font-weight: 500;
   } 
+ .loginHeader {
+  text-align: center;
+  font-family: 'Licorice', cursive;
+
+ }
+ .loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+ .loginInput {
+  margin: 10px;
+  border-radius: 3px;
+ }
