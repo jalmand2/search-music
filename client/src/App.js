@@ -15,7 +15,7 @@ import Signup from './components/Signup';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
 import ProtectRoute from './components/ProtectRoute';
-import Navbar from "./components/Nav/navbar";
+import Navbar from "./components/Nav";
 
 const httpLink = createHttpLink({
   uri: '/graphql',

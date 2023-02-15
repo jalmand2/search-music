@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import AuthService from '../../utils/auth';
 
 function navbar() {
   return (
@@ -23,8 +24,8 @@ function navbar() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">FAQ</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Logout
+              <NavDropdown.Item>
+              <button id="logout-button" onClick={AuthService.logout}>Logout</button>
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>

@@ -28,6 +28,7 @@ const Home = () => {
 
   </div>
 </div>
+
       <div className="input-group mb-3">
         {/* <!-- <button class="btn btn-outline-secondary" type="button">Pick an instrument</button> --> */}
         <select className="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
@@ -42,8 +43,7 @@ const Home = () => {
       </div>
       <div className="search-box">
       <label for="exampleDataList" className="form-label">Search</label>
-      <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type song name"></input>
-      </div>
+      <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type song name"></input>      </div>
       </div>
     );
 };
