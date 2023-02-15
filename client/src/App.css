@@ -117,17 +117,17 @@ height: 100vh;
     font-size: large;
     font-weight: 500;
   } 
- .loginHeader {
+ .loginHeader, .signupHeader {
   text-align: center;
   font-family: 'Licorice', cursive;
 
  }
- .loginForm {
+ .loginForm, .signupForm {
   display: flex;
   flex-direction: column;
   align-items: center;
  }
- .loginInput {
+ .loginInput, .signupInput {
   margin: 10px;
   border-radius: 3px;
  }

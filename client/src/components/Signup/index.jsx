@@ -46,30 +46,30 @@ const Signup = () => {
         <p variant='subtitle1'>Successfully created an account. You may now head{' '}<Link to='/'>back to the hompage.</Link></p>
       ) : (
         <div>
-          <h2>Sign Up</h2>
-          <form onSubmit={handleFormSubmit}>
-            <input
+          <h2 className="signupHeader">Sign Up</h2>
+          <form className="signupForm" onSubmit={handleFormSubmit}>
+            <input className="signupInput"
               placeholder='Username'
               name='username'
               type='text'
               value={formState.username}
               onChange={handleChange}
             />
-            <input
+            <input className="signupInput"
               placeholder='Email'
               name='email'
               type='text'
               value={formState.email}
               onChange={handleChange}
             />
-            <input
+            <input className="signupInput"
               placeholder='Password'
               name='password'
               type='password'
               value={formState.password}
               onChange={handleChange}
             />
-            <button type='submit'>Sign Up</button>
+            <button className="signupInput" type='submit'>Sign Up</button>
           </form>
         </div>
       )}
