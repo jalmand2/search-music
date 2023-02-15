@@ -13,7 +13,7 @@ function navbar() {
         <Navbar.Brand href="/">Apprenez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav id="nav-bar-side" className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#link">About</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">

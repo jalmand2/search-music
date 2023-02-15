@@ -12,10 +12,11 @@ header {
 nav {
   font-family: 'Licorice', cursive;
 }
-#navbarNav {
-  justify-content: flex-end;
+#nav-bar-side {
+  display: flex;
+  margin-right: 0!important;
 }
-#naviePoo {
+#basic-navbar-nav {
   justify-content: flex-end;
 }
 .navbar-nav {
