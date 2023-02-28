@@ -2,31 +2,18 @@ import React from 'react';
 
 
 const Home = () => {
-    return (
-            <div>
+  return (
+    <div>
 
-          <header>
-        <div className="container">
-            
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-            <div className="box"></div>
-          </div>
-          <h1>Apprenez</h1>
-          <h2>Learn to play </h2>
-          </header>
-          <div className="card">
-  <div className="card-body">
-Choose an instrument and master your next song!
-  </div>
-</div>
+      <header>
+        <h1>Apprenez</h1>
+        <h2>Learn to play </h2>
+      </header>
+      <div className="card">
+        <div className="card-body">
+          Choose an instrument and master your next song!
+        </div>
+      </div>
 
       <div className="input-group mb-3">
         {/* <!-- <button class="btn btn-outline-secondary" type="button">Pick an instrument</button> --> */}
@@ -41,11 +28,11 @@ Choose an instrument and master your next song!
         </select>
       </div>
       <div className="search-box">
-      <label for="exampleDataList" className="form-label">Search</label>
-      <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type song name"></input></div>
-      
-      </div>
-    );
+        <label for="exampleDataList" className="form-label">Search</label>
+        <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type song name"></input></div>
+
+    </div>
+  );
 };
 
 export default Home;
