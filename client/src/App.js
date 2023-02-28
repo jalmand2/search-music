@@ -11,6 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Auth from './utils/auth';
 import Home from './components/Home';
+import About from './components/About';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import Dashboard from './components/Dashboard';
@@ -44,9 +45,10 @@ function App() {
       <Router>
       <Navbar />
          <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/signup' element={<Signup />} />
-          <Route path='/login' element={<Login />} />
+          <Route path ='/' element={<Home />} />
+          <Route path ='/about' element={<About />} />
+          <Route path ='/signup' element={<Signup />} />
+          <Route path ='/login' element={<Login />} />
           <Route
             path='dashboard'
             element={Auth.loggedIn() ? <Dashboard /> : <ProtectRoute />}

@@ -24,8 +24,7 @@ const Home = () => {
           </header>
           <div className="card">
   <div className="card-body">
-  Apprenez is an easy-to-use, music search app. Choose the instrument you are learning on, type in the name of the song you would like to learn, and learn away! You will then be directed to a page with sheet music and tutorial videos on how to learn the selected song. Master your instrument now by searching for your first song! 
-
+Choose an instrument and master your next song!
   </div>
 </div>
 
@@ -43,7 +42,8 @@ const Home = () => {
       </div>
       <div className="search-box">
       <label for="exampleDataList" className="form-label">Search</label>
-      <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type song name"></input>      </div>
+      <input className="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type song name"></input></div>
+      
       </div>
     );
 };

@@ -15,7 +15,7 @@ function navbar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav id="nav-bar-side" className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               {/* dropdown is going to change into login/account username once logged in */}
               <NavDropdown.Item href="/Login">Login</NavDropdown.Item>

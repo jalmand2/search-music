@@ -22,6 +22,17 @@ nav {
 .navbar-nav {
   align-items: flex-end;
 }
+.dropdown-menu[data-bs-popper] {
+  left: -133px!important;
+}
+.dropdown-item {
+  display: flex!important;
+  justify-content: flex-end;
+}
+.dropdown-toggle {
+  display: flex!important;
+  justify-content: flex-end;
+}
 HTML CSSResult Skip Results Iframe
 EDIT ON
 body {
@@ -117,6 +128,7 @@ height: 100vh;
   .card-body {
     font-size: large;
     font-weight: 500;
+    text-align: center;
   } 
  .loginHeader, .signupHeader {
   text-align: center;
