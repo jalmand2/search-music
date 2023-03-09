@@ -8,7 +8,7 @@ import AuthService from '../../utils/auth';
 
 function navbar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
         <Navbar.Brand href="/">Apprenez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -16,7 +16,7 @@ function navbar() {
           <Nav id="nav-bar-side" className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <NavDropdown title="Account" id="basic-nav-dropdown">
               {/* dropdown is going to change into login/account username once logged in */}
               <NavDropdown.Item href="/Login">Login</NavDropdown.Item>
               <NavDropdown.Item href="/Signup">
@@ -24,9 +24,9 @@ function navbar() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">FAQ</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>
+              {/* <NavDropdown.Item>
               <button id="logout-button" onClick={AuthService.logout}>Logout</button>
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>
